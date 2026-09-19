@@ -1,0 +1,16 @@
+{
+  "name": "kuramanime-sidecar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright sidecar that resolves Kuramanime episode players for the anime-stream gateway.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}
